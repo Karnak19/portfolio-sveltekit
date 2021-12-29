@@ -52,11 +52,13 @@
 	];
 </script>
 
-<div class="grid place-items-center grid-cols-3">
-	<div id="text" class="text-8xl font-extrabold text-white font-prompt">
+<div class="grid place-items-center grid-cols-1 lg:grid-cols-3">
+	<div
+		id="text"
+		class="text-6xl lg:text-8xl px-5 lg:px-0 pb-8 lg:pb-0 font-extrabold text-white font-prompt">
 		<h1>Tech stack I love</h1>
 	</div>
-	<div id="stack" class="col-span-2 flex w-full gap-2">
+	<div id="stack" class="lg:col-span-2 px-2 lg:px-0 flex flex-col lg:flex-row w-full gap-2">
 		{#each stacks as item}
 			<StackItem
 				title={item.tech}

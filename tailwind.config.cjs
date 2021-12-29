@@ -1,16 +1,16 @@
 module.exports = {
 	content: ['./src/**/*.{html,svelte}'],
 	safelist: [
-		'group-hover:text-react',
-		'group-hover:text-nestjs',
-		'group-hover:text-typescript',
-		'group-hover:text-white',
-		'group-hover:text-black',
-		'group-hover:text-prisma',
-		'group-hover:text-graphql',
-		'group-hover:bg-typescript',
-		'group-hover:bg-white',
-		'group-hover:bg-black'
+		'lg:group-hover:text-react',
+		'lg:group-hover:text-nestjs',
+		'lg:group-hover:text-typescript',
+		'lg:group-hover:text-white',
+		'lg:group-hover:text-black',
+		'lg:group-hover:text-prisma',
+		'lg:group-hover:text-graphql',
+		'lg:group-hover:bg-typescript',
+		'lg:group-hover:bg-white',
+		'lg:group-hover:bg-black'
 	],
 
 	theme: {
